@@ -1,0 +1,50 @@
+@import url('https://fonts.cdnfonts.com/css/dandelion-soup');
+/* font-family: 'Dandelion Soup', sans-serif; */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: aquamarine;
+    font-family:'Dandelion Soup', sans-serif;
+}
+
+.gallery{
+    width: 90%;
+    max-width: 1200px;
+    overflow: hidden;
+    margin: 0 auto;
+    padding: 60px 0;
+}
+
+.gallery_title{
+    font-family: 'Dandelion Soup', sans-serif;
+    text-align: center;
+    font-size: 80px;
+    color: blue;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke: 1px blue;
+}
+
+.gallery_container{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.gallery_picture{
+    min-width: 200px;
+    /* flex-grow: 1;
+    flex-basis: 750px; */
+    flex: 300px;
+}
+
+.gallery_img{
+    width: 100%;
+    object-fit: cover;
+    height: 100%;
+
+}

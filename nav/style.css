@@ -1,0 +1,65 @@
+@import url('https://fonts.cdnfonts.com/css/fried-duck');
+/* font-family: 'Fried Duck', sans-serif; */
+@import url('https://fonts.cdnfonts.com/css/jan-brady');
+/* font-family: 'Jan Brady', sans-serif; */
+@import url('https://fonts.cdnfonts.com/css/esquadro');
+/* font-family: 'Esquadro', sans-serif; */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header{
+    background-color: aquamarine;
+    display: flex;
+    justify-content: space-between;
+    height: 85px;
+    padding: 5px  10%;
+    font-family: 'Fried Duck', sans-serif; 
+}
+.logo{
+    cursor: pointer;
+}
+
+.logo img{
+    height: 70px;
+}
+.nav_link{
+    list-style: none;
+}
+.nav_link li{
+    display: inline-block;
+    padding: 20px;
+    margin-top: 10px;
+}
+
+.nav_link li a{
+    text-decoration: none;
+    font-size: 2rem;
+    color: violet;
+    
+}
+.nav_link li a:hover{
+    color: antiquewhite;
+}
+
+.cta{
+    height: 60px;
+    color: antiquewhite;
+    background-color: white;
+    padding: 9px 25px;
+    border-radius: 50px;
+    cursor: pointer;
+    text-decoration: none;
+    text-align: center;
+    font-size: 2rem;
+    
+}
+.cta:hover{
+    color: violet;
+}
+
+
+
